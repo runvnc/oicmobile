@@ -36,10 +36,12 @@ var app = {
         console.log('Received Event: ' + id);
     },
     createServer: function() {
-      alert('hi');
       var name = document.getElementById('name').value;
-      alert(name); 
-      req('http://104.237.134.27:9020/'+name, function() {
+      var s = 'JIY234lksOIJOkX923sA';
+      var image = document.getElementById('image').value;
+      var url = 'http://104.237.134.27:6001/'+s+'/'+name+'/'+image+'/jason';
+      alert('Sending command to launch server url is '+url);
+      req(url, function() {
         alert('responseText: ' + this.responseText);
       });
     }

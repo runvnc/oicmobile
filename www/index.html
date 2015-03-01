@@ -12,10 +12,11 @@
     <body>
         <div class="app">
             <h1>My Servers</h1>
-            <div id="deviceready" class="blink">
+            <div id="deviceready">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
-                <input id="name" type="text"/>
+                <p>Server Name: <input id="name" type="text"/></p>
+                <p>Docker Image:<input id="image" type="text"/></p>
                 <button onclick="createServer()">Create Server</button>
               </div>
         </div>
