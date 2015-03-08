@@ -6,4 +6,14 @@
 /home/runvnc/oicmobile/platforms/android/ant-build/classes/com/oic/Myservers/R$drawable.class \
 /home/runvnc/oicmobile/platforms/android/ant-build/classes/com/oic/Myservers/R$string.class \
 /home/runvnc/oicmobile/platforms/android/ant-build/classes/com/oic/Myservers/CordovaApp.class \
+/home/runvnc/oicmobile/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen$2.class \
+/home/runvnc/oicmobile/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen.class \
+/home/runvnc/oicmobile/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen$6.class \
+/home/runvnc/oicmobile/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen$4.class \
+/home/runvnc/oicmobile/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen$5.class \
+/home/runvnc/oicmobile/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen$6$1.class \
+/home/runvnc/oicmobile/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen$5$1.class \
+/home/runvnc/oicmobile/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen$1.class \
+/home/runvnc/oicmobile/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen$7.class \
+/home/runvnc/oicmobile/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen$3.class \
 /home/runvnc/oicmobile/platforms/android/ant-build/dexedLibs/classes-56a3231beb1186345115d4ba773d78bb.jar \

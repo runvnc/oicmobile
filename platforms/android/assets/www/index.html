@@ -1,26 +1,57 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="msapplication-tap-highlight" content="no" />
-        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
-    </head>
-    <body>
-        <div class="app">
-            <h1>My Servers</h1>
-            <div id="deviceready">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-                <p>Server Name: <input id="name" type="text"/></p>
-                <p>Docker Image:<input id="image" type="text"/></p>
-                <button onclick="createServer()">Create Server</button>
-              </div>
-        </div>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-    </body>
+<head>
+<meta charset="utf-8" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="msapplication-tap-highlight" content="no" />
+<!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+<link rel="shortcut icon" href="favicon.ico">
+</head>
+
+
+<title>My Servers</title>
+</head>
+<body>
+
+<div data-role="page" class="app">
+  <div data-role="header">
+    <h1>My Servers</h1>
+  </div><!-- /header -->
+
+  <div id="deviceready" style="display:none">
+    <p class="event listening"></p>
+    <p class="event received"></p>
+  </div>
+
+  <style>
+    html, body, label, p, button {
+      font-family: 'Droid Sans', sans-serif;
+      font-size: 1.2em;
+    }
+    button {
+      background: none;
+      border: 2px solid black;
+    }
+  </style>
+  <div role="main" class="ui-content" style="margin-left: 20px;
+       margin-top:20px;">
+    <form>
+      <p><label for="name">Server Name:</label>
+      <input name="name" id="name" type="text"/></p>
+      <p><label for="image">Docker Image:</label>
+      <input name="image" id="image" type="text"/></p>
+      <button class="ui-shadow ui-btn ui-corner-all" 
+              onclick="createServer()">Create Server</button>
+    </form>
+  </div><!-- /content -->
+
+  <div data-role="footer">
+    ______
+  </div><!-- /footer -->
+</div><!-- /page -->
+
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
 </html>
