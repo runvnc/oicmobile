@@ -20,7 +20,6 @@
 /home/runvnc/oicmobile/platforms/android/assets/www/img \
 /home/runvnc/oicmobile/platforms/android/assets/www/js \
 /home/runvnc/oicmobile/platforms/android/assets/www/cordova.js \
-/home/runvnc/oicmobile/platforms/android/assets/www/plugins \
 /home/runvnc/oicmobile/platforms/android/assets/www/css \
 /home/runvnc/oicmobile/platforms/android/assets/www/index.html \
 /home/runvnc/oicmobile/platforms/android/assets/www/cordova_plugins.js \
@@ -28,9 +27,6 @@
 /home/runvnc/oicmobile/platforms/android/assets/www/img/androidlogo.png \
 /home/runvnc/oicmobile/platforms/android/assets/www/img/logo.png \
 /home/runvnc/oicmobile/platforms/android/assets/www/js/index.js \
-/home/runvnc/oicmobile/platforms/android/assets/www/plugins/org.apache.cordova.splashscreen \
-/home/runvnc/oicmobile/platforms/android/assets/www/plugins/org.apache.cordova.splashscreen/www \
-/home/runvnc/oicmobile/platforms/android/assets/www/plugins/org.apache.cordova.splashscreen/www/splashscreen.js \
 /home/runvnc/oicmobile/platforms/android/assets/www/css/index.css \
 /home/runvnc/oicmobile/platforms/android/assets/www/css/opensans.css \
 /home/runvnc/oicmobile/platforms/android/assets/www/css/indexold.css \
