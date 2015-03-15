@@ -36,18 +36,39 @@
   </style>
   <div role="main" class="ui-content" style="margin-left: 20px;
        margin-top:20px;">
-    <form>
+      <form>
+        <form action="/add" method="POST">
+        <script
+          src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+          data-key="pk_test_UUKFzNWYPZAh4eEPx1ic7GR6"
+          data-image="/img/documentation/checkout/marketplace.png"
+          data-name="Deploy Server"
+          data-description="server"
+          data-amount="10">
+        </script>
       <p><label for="name">Server Name:</label>
       <input name="name" id="name" type="text"/></p>
       <p><label for="image">Docker Image:</label>
-      <input name="image" id="image" type="text"/></p>
+      <select name="image">
+        <option value="wordpress">Wordpress</option>
+        <option value="mediawiki">MediaWiki</option>
+        <option value="magento">Magento</option>
+        <option value="ghost">Ghost</option>
+        <option value="vanilla">Vanilla Forums</option>
+        <option value="etherpad">Etherpad</option>
+        <option value="ethercalc">Ethercalc</option>
+        <option value="alfresco">Alfresco</option>
+        <option value="suitecrm">Suite CRM</option>
+        <option value="gitlab">Gitlab</option>        
+        <option value="ubuntu">Ubuntu</option>
+      </select>
+      <input name="customimage" id="customimage" type="text"/></p>
       <button class="ui-shadow ui-btn ui-corner-all" 
-              onclick="createServer()">Create Server</button>
-    </form>
+              onclick="createServer(); return false">Create Server</button>
+      </form>
   </div><!-- /content -->
 
   <div data-role="footer">
-    ______
   </div><!-- /footer -->
 </div><!-- /page -->
 
