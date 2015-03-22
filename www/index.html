@@ -25,9 +25,12 @@
   </div>
 
   <style>
-    html, body, label, p, button {
+    html, body, label, p, button,input {
       font-family: 'Droid Sans', sans-serif;
       font-size: 1.2em;
+    }
+    input {
+      height:1.2em;
     }
     button {
       background: none;
@@ -37,7 +40,7 @@
   <div role="main" class="ui-content" style="margin-left: 20px;
        margin-top:20px;">
       <form>
-        <form action="/add" method="POST">
+        <form action="https://104.237.134.27:6001/add" method="POST">
         <script
           src="https://checkout.stripe.com/checkout.js" class="stripe-button"
           data-key="pk_test_UUKFzNWYPZAh4eEPx1ic7GR6"
